@@ -80,7 +80,7 @@
 		
 		"Interaction.Destroy": "Verwijderen",
 		"Interaction.Duplicate": "Dupliceren",
-		"Interaction.SaveToInventory": "Opslaan in inventaris",
+		"Interaction.SaveToInventory": "Bewaren in opslag",
 		"Interaction.SaveToInventory.NotLoggedIn": "Je moet ingelogd zijn om op te kunnen slaan.",
 		"Interaction.SaveToInventory.NoWritePermission": "Kan niet in de huidige folder opslaan.",
 		"Interaction.Undo": "Ongedaan maken",
@@ -120,7 +120,7 @@
 		"Inventory.CreateDirectory": "Folder maken",
 		"Inventory.SaveHeld": "Object opslaan",
 		"Inventory.GetURL": "URL kopiëren",
-		"Inventory.Inventories": "Inventarissen",
+		"Inventory.Inventories": "Opslag Mappen",
 		"Inventory.Share": "Delen",
 		"Inventory.Unshare": "Stoppen met delen",
 		"Inventory.SaveAvatar": "Avatar opslaan",
@@ -139,10 +139,10 @@
 		"Inventory.Favorite.Document": "Als documentweergave instellen",
 		"Inventory.SpawnFacet": "Facet spawnen",
 		
-		"Dash.Screens.Home": "hoofdscherm",
+		"Dash.Screens.Home": "Hoofdscherm",
 		"Dash.Screens.Worlds": "Werelden",
 		"Dash.Screens.Contacts": "Contacten",
-		"Dash.Screens.Inventory": "Inventaris",
+		"Dash.Screens.Inventory": "Opslag",
 		"Dash.Screens.Desktop": "Bureaublad",
 		"Dash.Screens.Session": "Sessie",
 		"Dash.Screens.FileBrowser": "Bestanden",
@@ -228,7 +228,7 @@
 		"World.Config.CleanupInterval": "Tijd tussen schoonmaken (seconden):",
 		
 		"World.Actions.StartSession": "Start sessie",
-		"World.Actions.Join": "Toetreden",
+		"World.Actions.Join": "Bezoeken",
 		"World.Actions.Focus": "Focus",
 		"World.Actions.Close": "Wereld sluiten",
 		"World.Actions.Leave": "Verlaat wereld",
@@ -236,7 +236,7 @@
 		"World.Actions.SaveAs": "Opslaan als...",
 		"World.Actions.SaveCopy": "Bewaar kopie...",
 		"World.Actions.SaveHere": "Hier opslaan",
-		"World.Actions.SaveToInventory": "Opslaan in inventaris",
+		"World.Actions.SaveToInventory": "Bewaren in opslag",
 		"World.Actions.Saving": "Bezig met opslaan...",
 		"World.Actions.Discard": "Wijzigingen weggooien",
 		"World.Actions.Clone": "Kopiëer wereld",
@@ -294,7 +294,7 @@
 		"World.Detail.ActionsHeader": "Acties:",
 		
 		"World.Category.Everything": "Alles",
-		"World.Category.Featured": "Aanbevolen",
+		"World.Category.Featured": "Aanbevelingen",
 		"World.Category.PublishedWorlds": "Gepubliceerde werelden",
 		"World.Category.ActiveSessions": "Actieve sessies",
 		"World.Category.ContactsSessions": "Sessies met contacten",
@@ -302,12 +302,12 @@
 		"World.Category.Social": "Sociaal",
 		"World.Category.Games": "Spelletjes",
 		"World.Category.Art": "Kunst",
-		"World.Category.Tutorials": "Tutorials",
+		"World.Category.Tutorials": "Instructies",
 		"World.Category.Educational": "Educatief",
 		"World.Category.Random": "Willekeurig",
 		"World.Category.MyWorlds": "Mijn werelden",
 		"World.Category.Custom": "Aangepast",
-		"World.Category.GroupWorlds": "Groep werelden",
+		"World.Category.GroupWorlds": "Groeps werelden",
 		
 		"World.AccessLevel.Anyone": "Iedereen",
 		"World.AccessLevel.RegisteredUsers": "Geregistreerde gebruikers",
@@ -335,9 +335,9 @@
 		"World.Filter.LocalWorlds": "Lokale werelden",
 		"World.Filter.BaseSearch": "Zoeken:",
 		"World.Filter.ByOwner": "Door eigenaar:",
-		"World.Filter.UserOwner": "Eigenaar is gebruiker",
-		"World.Filter.GroupOwner": "Eigenaar is groep",
-		"World.Filter.SubmittedToGroup": "Ingediend bij groep:",
+		"World.Filter.UserOwner": "Van gebruikers",
+		"World.Filter.GroupOwner": "Van groepen",
+		"World.Filter.SubmittedToGroup": "geüpload groep:",
 		"World.Filter.Featured": "Alleen aanbevolen",
 		"World.Filter.MyWorlds": "Mijn werelden",
 		"World.Filter.SessionFiltering": "Sessiefiltering:",
@@ -544,9 +544,9 @@
 		"Account.ErrorEmailMismatch": "E-mails komen niet overeen!",
 		"Account.ErrorLoginError": "Login fout:",
 		"Account.RegistrationSuccess": "<size=120%>Succes!</size><br><br>Er is een e-mail verzonden naar {email} met een verificatielink.<br><br>Zodra je deze link opent, loggen we je automatisch in zolang dit bericht open is.<br><br>Als je problemen ondervindt kan je ons bereiken via {appEmail} of {appCommunity}",
-		"Account.BirthMonth": "Geboorte maand:",
-		"Account.BirthDay": "Geboorte dag:",
-		"Account.BirthYear": "Geboorte jaar:",
+		"Account.BirthMonth": "Geboortemaand:",
+		"Account.BirthDay": "Geboortedag:",
+		"Account.BirthYear": "Geboortejaar:",
 		"Account.PoliciesAgreement": "Ik ga akkoord met de <color=#22B2FF>servicevoorwaarden</color> en het <color=#22B2FF>privacybeleid</color>",
 		"Account.AlternateMethods": "Log in met een service van een derde partij:",
 
@@ -747,8 +747,8 @@
 
 		"Tooltip.CharacterCollider.MarkGrippable": "Vastpakken Toestaan",
 		"Tooltip.CharacterCollider.DontMarkGrippable": "Vastpakken Niet Toestaan",
-		"Tooltip.CharacterCollider.EnsureWalkRun": "Verzeker loop-/ren-beweging",
-		"Tooltip.CharacterCollider.EnsureZeroG": "Verzeker gewichtloze-voortbeweging",
+		"Tooltip.CharacterCollider.EnsureWalkRun": "Verankeren loop-/ren-beweging",
+		"Tooltip.CharacterCollider.EnsureZeroG": "Verankeren gewichtloze-locomotie",
 		"Tooltip.CharacterCollider.EnsurePhysicalFly": "Verzeker fysieke vliegbeweging",
 
 		"Tooltip.Light.Point": "Punt",
@@ -1224,7 +1224,7 @@
 		"Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Reset alle simpele instellingen",
 
 		"Settings.GeneralControlsSettings": "Algemene Besturing",
-		"Settings.LocomotionSettings": "Voortbeweging",
+		"Settings.LocomotionSettings": "Locomotie",
 		"Settings.MovementSettings": "Beweging",
 		"Settings.MouseSettings": "Muis",
 
@@ -1292,8 +1292,8 @@
 		"Settings.GeneralControlsSettings.DoubleClickInterval": "Dubbelklik interval",
 		"Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Voor interacties die een dubbele-klik nodig hebben. Dit bepaalt de maximale tijd tussen klikken die gezien worden als dubbelklik. Als je moeite hebt met dubbelklikken, zet de waarde hoger. Als enkele klikken gezien worden als dubbelklikken, zet de waarde lager.",
 
-		"Settings.LocomotionSettings.LocomotionPreferences": "Voortbeweging Voorkeuren",
-		"Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Voortbeweging",
+		"Settings.LocomotionSettings.LocomotionPreferences": "Locomotie Voorkeuren",
+		"Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Locomotie",
 
 		"Settings.MovementSettings.LeftSidewaysMode": "Linkercontroller zijwaartse bewegings-modus",
 		"Settings.MovementSettings.LeftSidewaysMode.Description": "Gebruik dit om te bepalen wat de zijwaartse beweging op je linker joystick/touchpad doet.",
@@ -1310,7 +1310,7 @@
 		"Settings.MovementSettings.SnapTurnAngle": "Snap draai hoek",
 		"Settings.MovementSettings.SnapTurnAngle.Description": "Dit is de hoek (in graden) die je draait als je met snap draai probeert te draaien.",
 		"Settings.MovementSettings.NoClipSpeed": "Noclip snelheid",
-		"Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip voortbewegingsmodus. Dit type voortbeweging wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
+		"Settings.MovementSettings.NoClipSpeed.Description": "Dit bepaalt hoe snel je beweegt met de Noclip locomotie modus. Dit type locomotie wordt vaak gebruikt voor bouwen en testen, en is dus vaak niet bestuurd door de wereld waar je in bent.",
 		"Settings.MovementSettings.MovementDeadzone": "Bewegings deadzone",
 		"Settings.MovementSettings.MovementDeadzone.Description": "Deze instelling kan gebruikt worden om drift te corrigeren. Door deze waarde te verhogen moet je de joystick verder duwen voordat je beweegt.",
 		"Settings.MovementSettings.TurningDeadzone": "Draaien deadzone",
@@ -1622,8 +1622,8 @@
 		"Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Wanneer dit aan staat kan je gereedschappen en gadgets gebruiken door snel twee keer vast te pakken. Deze instelling wordt waarschijnlijk in de toekomst verwijderd.",
 		"Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Gebruik oude wereld wisselaar",
 		"Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Wanneer dit aan staat, opent de app knop op je niet-primaire hand een oude wereld wisselaar om tussen actieve werelden te wisselen. Deze functie wordt in de toekomst verwijderd met een meer flexibele oplossing.",
-		"Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Gebruik oude inventaris & sessie snelkoppeling gebaar",
-		"Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude inventaris of het oude sessie menu.",
+		"Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Gebruik oude opslag & sessie snelkoppeling gebaar",
+		"Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Wanneer dit aan staat, als je grip vasthoudt en op de App knop drukt (die normaal de dash opent/sluit), open je de oude opslag of het oude sessie menu.",
 
 		"Settings.TwitchInterfaceSettings.ChannelName": "Twitch Channel Naam",
 		"Settings.TwitchInterfaceSettings.ChannelName.Description": "Dit stelt de standaard naam in voor de Twitch chat in het camera-besturing paneel. Dit wordt vooral gebruikt door Twitch streamers die hun chat willen zien.",
@@ -1719,8 +1719,8 @@
 		"Settings.PhotoCaptureSettings.CaptureStereo.Description": "Wanneer dit aan staat, worden alle snelle fotos gemaakt als stereoscopisch. Dit is vooral voor het bekijken van de foto in VR.",
 		"Settings.PhotoCaptureSettings.StereoSeparation": "Stereo Scheiding",
 		"Settings.PhotoCaptureSettings.StereoSeparation.Description": "Gebruik dit om de scheiding tussen cameras te bepalen op stereo-modus. Dit bepaalt de afstand tussen de cameras, wat invloed heeft op de kracht van het stereo-effect voor objecten op een grotere afstand.\n\nWanneer je fotos maakt van dichtbij zijn lagere waarden beter. Wanneer je fotos maakt van grote scènes werken grotere waarden beter.",
-		"Settings.PhotoCaptureSettings.PhotoAutosavePath": "Foto automatisch opslaan in inventaris pad",
-		"Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wanneer dit ingesteld is, worden fotos die je maakt (of via het context menu bewaart) automatisch opgeslagen in je inventaris. Bijvoorbeeld <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nDe volgende variabelen zijn beschikbaar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
+		"Settings.PhotoCaptureSettings.PhotoAutosavePath": "Foto automatisch opslaan in opslag pad",
+		"Settings.PhotoCaptureSettings.PhotoAutosavePath.Description": "Wanneer dit ingesteld is, worden fotos die je maakt (of via het context menu bewaart) automatisch bewaard in je Opslag. Bijvoorbeeld <color=hero.yellow>Fotos/%year%/%month_name%</color>\n\nDe volgende variabelen zijn beschikbaar:\n\n<size=75%>%second%, %minute%, %hour%, %day%, %month%, %year%, %day_name%, %day_name_en%, %month_name%, %month_name_en%, %session_second%, %session_minute%, %session_hour%, %session_day%, %session_month%, %session_year%, %session_day_name%, %session_day_name_en%, %session_month_name%, %session_month_name_en%, %location_name%, %app_version%</size>",
 		"Settings.PhotoCaptureSettings.CapturePrivateUI": "Privé UI vastleggen",
 		"Settings.PhotoCaptureSettings.CapturePrivateUI.Description": "Wanneer dit aan staat, zal de snelle foto opname je privé UI vastleggen, zoals je dash. Dit kan handig zijn als je informatie wil laten zien die daar staat.\n\nWe raden aan om dit uit te zetten zodra je klaar bent, omdat je per ongeluk privé informatie kan vastleggen en lekken.",
 		"Settings.PhotoCaptureSettings.EncodeFormat": "Codeer Formaat",
@@ -1792,7 +1792,7 @@
 		"Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Zet dit aan om lineaire interpolatie te gebruiken in plaats van smooth interpolatie. Lineaire interpolatie start en stopt abrupt, maar heeft een constante bewegingssnelheid, los van de afstand tussen de ankers. Dit betekent dat als de ankers verder uit elkaar zitten, duurt het langer voor de camera om het anker te bereiken.",
 
 		"Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawn gemaakte fotos in de wereld",
-		"Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Wanneer je fotos maakt met de interactieve camera, moeten ze in de wereld spawnen? Als dit uit staat, zullen ze alleen naar je documenten folder worden opgeslagen. (Of naar je inventaris, als het geconfigureerd is)",
+		"Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Wanneer je fotos maakt met de interactieve camera, moeten ze in de wereld spawnen? Als dit uit staat, zullen ze alleen naar je documenten folder worden bewaard. (Of naar je opslag, als het geconfigureerd is)",
 
 		"Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Bewegingsonscherpte",
 		"Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Moet de camera het bewegingsonscherpte effect gebruiken?",
@@ -1861,7 +1861,7 @@
 		"LocomotionArchetype.NoClip": "Noclip",
 		"LocomotionArchetype.Teleport": "Teleporteren",
 		"LocomotionArchetype.GrabWorld": "Wereld Vastpakken",
-		"LocomotionArchetype.NoLocomotion": "Geen Voortbeweging",
+		"LocomotionArchetype.NoLocomotion": "Geen Locomotie",
 		"LocomotionArchetype.ThreeAxisNoClip": "Drie-Assige Noclip",
 		"LocomotionArchetype.ThreeAxisFly": "Drie-Assig Vliegen",
 		"LocomotionArchetype.ZeroG": "Gewichtloosheid",
@@ -2263,13 +2263,13 @@
 		"Tutorial.Welcome.Begin": "Laten we beginnen!",
 
 		"Tutorial.Welcome.AccountHeader": "{appName} account",
-		"Tutorial.Welcome.AccountDescription": "Het registreren van een account geeft je 1GB gratis opslag. Deze opslag kun je gebruiken voor het opslaan van avatar, objecten en favorieten\nOok stelt het je in staat om contacten op te slaan en deze berichten te sturen.",
+		"Tutorial.Welcome.AccountDescription": "Het registreren van een account geeft je 1GB gratis opslag. Deze opslag kun je gebruiken voor het opslaan van avatars, objecten en favorieten.\nOok stelt het je in staat om contacten op te slaan en deze berichten te sturen.",
 		"Tutorial.Welcome.AccountCreate": "Registreer een account",
 		"Tutorial.Welcome.AccountLogin": "Ik heb reeds een account",
 		"Tutorial.Welcome.AccountSkip": "Verder gaan zonder account",
 		"Tutorial.Welcome.AccountSkipHeader": "Registratie overslaan?",
-		"Tutorial.Welcome.AccountSkipDescription": "Sommige functies zullen niet functioneren.\nDit zijn bijvoorbeeld het opslaan van avatars, favorieten en objecten.\nOok kunnen contacten niet bijgehouden worden.",
-		"Tutorial.Welcome.AccountSkipConfirm": "Echt overslaan",
+		"Tutorial.Welcome.AccountSkipDescription": "Sommige functies zullen niet werken.\nDit zijn bijvoorbeeld het opslaan van avatars, favorieten en objecten.\nOok kunnen contacten niet bijgehouden worden.",
+		"Tutorial.Welcome.AccountSkipConfirm": "Overslaan",
 
 		"Tutorial.Welcome.SettingsHeader": "Basis Voorkeuren",
 		"Tutorial.Welcome.SettingsDescription": "Hier kunnen de basis/bewegings voorkeuren aangepast worden.\nAlle instellingen kunnen op een later moment bijgesteld worden.",
@@ -2377,7 +2377,7 @@
 
 		"Migration.DataSelection.Contacts": "Contacten",
 		"Migration.DataSelection.Message History": "Berichtengeschiedenis",
-		"Migration.DataSelection.InventoryWorld": "Inventaris & Werelden",
+		"Migration.DataSelection.InventoryWorld": "Opslag & Werelden",
 		"Migration.DataSelection.CloudVariable.Definitions": "Cloud Variabele Definities",
 		"Migration.DataSelection.CloudVariable.Values": "Cloud Variabele Waarden",
 
@@ -2461,7 +2461,7 @@
 
 		"CloudHome.Info.OnlineUsers": "Online {online_users,plural, one {gebruiker} other {gebruikers}}: {online_users}<br>Toetreedbare {joinable_users,plural, one {gebruiker} other {gebruikers}}: {joinable_users}",
 		"CloudHome.Info.Moderation": "Handhaving",
-		"CloudHome.Info.Inventory": "Inventaris",
+		"CloudHome.Info.Inventory": "Opslag",
 		"CloudHome.Info.Tools": "Gereedschappen",
 		"CloudHome.Info.MoreInfo": "Meer Informatie",
 		"CloudHome.Info.SessionUptime": "Sessie Actief Voor:",
@@ -2480,10 +2480,10 @@
 		"CloudHome.Info.ModerationTab.Content": "Veiligheid is belangrijk voor ons. Als je hulp nodig hebt of een gebruiker moet rapporteren, kan je een ticket openen in ons <u><color=hero.cyan>Handhavings Portaal.</color></u><sprite name=hyperlink><br><br>We hebben een sterk team vrijwillige handhavers <sprite name=modbadge> die de community veilig houden! Dien alsjeblieft een ticket in als je vragen hebt of gedrag ziet dat richtlijnen overtreedt.",
 
 		"CloudHome.Info.InventoryTab.Title": "Sla je voorwerpen op!",
-		"CloudHome.Info.InventoryTab.Content": "De <i><color=hero.purple>Inventaris</color></i> in je <i><color=hero.purple>Dashboard</color></i> bevat al je opgeslagen avatars en voorwerpen.<br><br>De <i><color=hero.purple>Essentials</color></i> folder heeft wat leuke dingen om mee te spelen; dubbelklik op een voorwerp om het in de wereld te brengen!",
+		"CloudHome.Info.InventoryTab.Content": "De <i><color=hero.purple>Opslag</color></i> in je <i><color=hero.purple>Dashboard</color></i> bevat al je opgeslagen avatars en voorwerpen.<br><br>De <i><color=hero.purple>Essentials</color></i> folder heeft wat leuke dingen om mee te spelen; dubbelklik op een voorwerp om het in de wereld te brengen!",
 
 		"CloudHome.Info.ToolsTab.Title": "De Wereld Bewerken!",
-		"CloudHome.Info.ToolsTab.Content": "Een kenmerk van {appName} is dat dingen makkelijk gemaakt of bewerkt kunnen worden in het spel.<br><br>Ja, dat betekent hier! Of overal eigenlijk - de gereedschappen beschikbaar voor je via <i><color=hero.purple>Essentials -> Tools</color></i> in jouw inventaris staan je toe om de wereld aan te passen zoals jij wilt.",
+		"CloudHome.Info.ToolsTab.Content": "Een kenmerk van {appName} is dat dingen makkelijk gemaakt of bewerkt kunnen worden in het spel.<br><br>Ja, dat betekent hier! Of overal eigenlijk - de gereedschappen beschikbaar voor je via <i><color=hero.purple>Essentials -> Tools</color></i> in jouw opslag staan je toe om de wereld aan te passen zoals jij wilt.",
 
 		"CloudHome.Info.HelpTab.Title": "Hulp Krijgen",
 		"CloudHome.Info.HelpTab.InfoLineOne": "Hulp nodig? Kijk op onze <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, of krijg antwoorden op jouw",
@@ -2574,7 +2574,7 @@
 
 		"CloudHome.FeaturedPanel.OpenWorld": "Open Wereld",
 		"CloudHome.FeaturedPanel.LinkText": "Open deze wereld voor<br>jezelf door hier te klikken!",
-		"CloudHome.FeaturedPanel.Featured": "aanbevolen",
+		"CloudHome.FeaturedPanel.Featured": "Aanbevelingen",
 
 		"CloudHome.AvatarPanel.Title": "Aanbevolen Avatar Werelden",
 
